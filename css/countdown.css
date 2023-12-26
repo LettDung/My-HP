@@ -1,0 +1,8 @@
+#countdown-timer button {
+    border: 1px solid orangered;
+    background-color: orangered;
+    color: white;
+    padding: 7px;
+    margin: 0 5px;
+    border-radius: 5px;
+}

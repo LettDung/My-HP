@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt hàng</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/giohang.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="main-menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="./giohang.html" onclick="getProduct(); return false;">Đặt Hàng</a></li>
+                        <li><a href="./dangki.html">Đăng Kí</a></li>
+                        <li><a href="./lienhe.html">Liên Hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <h3 class="title">SẢN PHẨM</h3>
+            <div id="products">
+                <div class="content-item">
+                    <img src="./image/anh1.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro 13" 2020 Touch Bar M1 512GB</h4>
+                        <p><span>30.999</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh2.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro M2 2022 13" 10GPU 256GB</h4>
+                        <p><span>30.490</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh3.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro M2 2022 13" 8CPU 256GB</h4>
+                        <p><span>35.990</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+            </div>
+                <!-- <div class="main-item"> -->
+                <div class="content-item">
+                    <img src="./image/anh4.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro 14" 2021 M1 Pro Ram 32GB</h4>
+                        <p><span>53.990</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh5.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro 16" 2021 M1 Pro Ram 32GB 1TB</h4>
+                        <p><span>57.990</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh6.webp" alt="anh">
+                    <div class="content-item-text">
+                        <h4>MacBook Pro 16" 2021 M1 Pro Ram 32GB</h4>
+                        <p><span>63.990</span>.000<sup>đ</sup></p>
+                    </div>
+                    <button class="btn">Thêm vào giỏ hàng</button>
+                </div>
+                <!-- </div>  -->
+            </div>
+            <h3 class="title">GIỎ HÀNG</h3>
+            <div class="cart">
+                <form action="">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>Số lượng</th>
+                                <th>Chọn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                    <div style="text-align: right;" class="price-total">
+                        <p style="font-weight: bold;">Tổng tiền: <span>0</span><sup>đ</sup></p>
+                    </div>
+                </form>
+            </div>
+            <!-- </div> -->
+            <div class="footer">
+                <div class="form">
+                    <input type="text" name="" id="" placeholder="Nhập để tìm kiếm">
+                    <button>Search</button>
+                </div>
+                <div class="name">
+                    <span>レティトゥイズン＠＠</span>
+                </div>
+            </div>
+        </div>
+        <script src="./js/giohang.js"></script>
+        <script src="./js/api.js"></script>
+</body>
+
+</html>

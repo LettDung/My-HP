@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link rel="stylesheet" href="./css/countdown.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="./image/logo.png" alt="">
+            </div>
+            <div class="main-menu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./sanpham.html">Sản Phẩm</a></li>
+                        <li><a href="./giohang.html">Đơn Hàng</a></li>
+                        <li><a href="./dangki.html">Đăng Kí</a></li>
+                        <li><a href="./lienhe.html">Liên Hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./image/slide1.jpeg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/slide2.jpeg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/slide3.jpeg" alt="banner">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./image/slide4.jpeg" alt="banner">
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+            <script src="./js/swiper.js"></script>
+        </div>
+        <div class="main-content">
+            <div class="main-title">
+                <h3 class="title"> 新商品</h3>
+                <div class="main-countdown">
+                    <h3 class="title" style="color: orangered; font-weight: 900;">FLASH SALE</h3>
+                    <table id="countdown">
+                        <tr id="countdown-timer">
+                            <td><button><span id="days">0</span>d</button></td>
+                            <td><button><span id="hours">0</span>h</button></td>
+                            <td><button><span id="minutes">0</span>m</button></td>
+                            <td><button><span id="seconds">0</span>s</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="content-item">
+                    <img src="./image/anh1.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro 13" 2020 Touch Bar M1 512GB</a></h4>
+                        <p>30.999.000đ</p>
+                        <button>購入数 56</button>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh2.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro M2 2022 13" 10GPU 256GB</a></h4>
+                        <p>30.490.000đ</p>
+                        <button>人気</button>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh3.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro M2 2022 13" 8CPU 256GB</a></h4>
+                        <p>35.990.000đ</p>
+                        <button>購入数 115</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-item">
+                <div class="content-item">
+                    <img src="./image/anh4.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro 14" 2021 M1 Pro Ram 32GB</a></h4>
+                        <p>53.990.000đ</p>
+                        <button>お買い得</button>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh5.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro 16" 2021 M1 Pro Ram 32GB 1TB</a></h4>
+                        <p>57.990.000đ</p>
+                        <button>人気</button>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <img src="./image/anh6.webp" alt="anh">
+                    <div class="text">
+                        <h4><a href="#">MacBook Pro 16" 2021 M1 Pro Ram 32GB</a></h4>
+                        <p>63.990.000đ</p>
+                        <button>購入数 28</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="form">
+                <input type="text" name="" id="" placeholder="Nhập để tìm kiếm">
+                <button>Search</button>
+            </div>
+            <div class="name">
+                <span>レティトゥイズン＠＠</span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/countdown.js"></script>
+</body>
+
+</html>

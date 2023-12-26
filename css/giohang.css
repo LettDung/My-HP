@@ -1,0 +1,91 @@
+.products {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.content-item {
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+
+.content-item:hover {
+    border: 1px solid lightgray;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.532);
+    padding: 10px 20px;
+}
+
+.content-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.content-item-text {
+    margin-top: 5px;
+}
+
+.content-item-text h4 {
+    margin: 5px 0;
+}
+
+/* .text a {
+    color: black;
+    text-decoration: none;
+}
+
+.text a:hover {
+    color: blue;
+} */
+
+.content-item-text p {
+    font-weight: 600;
+    font-size: larger;
+    color: red;
+}
+
+.content-item button {
+    margin: 10px 0;
+    padding: 7px 20px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content-item button:hover {
+    background-color: orange;
+    border: 1px solid orange;
+    color: white;
+}
+
+.cart {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart table thead tr th:first-child {
+    text-align: left;
+}
+
+.cart table thead tr th:last-child {
+    text-align: right;
+}
+
+.cart table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+.cart table tbody tr td:last-child {
+    text-align: right;
+}

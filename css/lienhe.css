@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    top: 50%;
+    left: 50%;
+    max-width: 450px;
+    height: 550px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: auto;
+}
+
+.wrapper:hover {
+    top: 50%;
+    left: 50%;
+    max-width: 450px;
+    height: 550px;
+    width: 100%;
+    background: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.532);
+    margin: auto;
+}
+
+.wrapper .input_field {
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrapper .radio_field {
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+    color: gray;
+}
+
+.wrapper textarea {
+    resize: none;
+    height: 80px;
+}
+
+.wrapper .buton input[type="submit"] {
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #f29934;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+#error_message {
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.input_field {
+    margin: 30px 0;
+}
+
+.radio_field {
+    margin: 30px 0;
+}
